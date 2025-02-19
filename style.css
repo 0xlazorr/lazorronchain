@@ -397,25 +397,30 @@ form.btn2 {
         display: flex;
         flex-direction: column-reverse;
         align-items: normal;
+        flex-wrap: wrap;
     }
-    #myHeadshot{
+
+    #myHeadshot {
         max-width: 100%;
         padding-left: 50px;
     }
-    .container{
-        padding: 10px;
 
+    .container {
+        padding: 10px;
+        position: relative;
+        overflow: auto;
+        width: 100%;
     }
+
     span {
         color: #237afc;
     }
-    nav ul{
-        display: flex;
-    }
-    #header {
+    nav{
         width: 100%;
-        padding: 0%;
-        margin: 0%;
+        display: none;
+    }
+    nav ul {
+        display: flex;
     }
 
     .header-text {
@@ -465,21 +470,25 @@ form.btn2 {
         display: flex;
         flex-direction: column-reverse;
         align-items: normal;
-
+        flex-wrap: wrap;
     }
-    nav ul{
+
+    nav ul {
         display: flex;
     }
+
     #header {
         width: 100%;
         padding: 0%;
         margin: 0%;
     }
-    .header-text{
+
+    .header-text {
         padding-left: 50px;
         margin: 10% 10% 10% 0;
     }
-    #firstImg{
+
+    #firstImg {
         padding-left: 50px;
         align-self: center;
     }
