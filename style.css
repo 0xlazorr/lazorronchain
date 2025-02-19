@@ -17,7 +17,6 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    margin-right: 50%;
 }
 
 .container {
@@ -62,6 +61,7 @@ nav ul li a:hover::after {
 .header-text {
     margin-top: 20%;
     font-size: 30px;
+    font-family: cursive;
     padding-left: 40px;
     flex-basis: 50%;
 }
@@ -83,14 +83,14 @@ nav ul li a:hover::after {
 }
 
 #firstImg {
-    flex-basis: 30%;
-    padding-top: 30px;
-    padding-right: 90px;
+    flex-basis: 35%;
+
 }
 
 #myHeadshot {
     border-radius: 70%;
-    padding-top: 40px;
+    padding-top: 70px;
+    padding-right: 90px;
 }
 
 #span {
@@ -393,56 +393,38 @@ form.btn2 {
 
 /* ------CSS for Small Screen------ */
 @media only screen and (max-width: 600px) {
-    body {
-        margin: 0%;
-    }
-
     #flexbox {
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
+        align-items: normal;
     }
-
-    div #firstImg {
-        padding-right: 0px;
+    #myHeadshot{
+        max-width: 100%;
+        padding-left: 50px;
     }
-
-    div #header {
-        padding-right: 0px;
-    }
-
-    .container {
-        padding-left: 60px;
-        width: 100%;
-    }
-
-    nav {
-        justify-content: center;
-    }
-
-    nav ul {
-        display: flex;
-        gap: 1px;
-    }
-
-    #sidemenu {
-        display: flex;
-        padding-top: 10px;
-        padding-left: 5%;
+    .container{
+        padding: 10px;
 
     }
-
     span {
         color: #237afc;
     }
+    nav ul{
+        display: flex;
+    }
+    #header {
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
 
     .header-text {
-        font-size: 25px;
-        padding-right: 50px;
+        font-size: 30px;
+        padding-left: 20px;
     }
 
     .header-text h1 {
-        font-size: 35px;
+        font-size: 45px;
     }
 
     .sub-title {
@@ -474,5 +456,31 @@ form.btn2 {
 
     .copyright {
         font-size: 14px;
+        width: 100%
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width: 1180px) {
+    #flexbox {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: normal;
+
+    }
+    nav ul{
+        display: flex;
+    }
+    #header {
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+    .header-text{
+        padding-left: 50px;
+        margin: 10% 10% 10% 0;
+    }
+    #firstImg{
+        padding-left: 50px;
+        align-self: center;
     }
 }
