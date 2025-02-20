@@ -410,6 +410,7 @@ form.btn2 {
 
     #myHeadshot {
         max-width: 100%;
+        height: auto;
         padding-left: 80px;
     }
 
@@ -441,12 +442,12 @@ form.btn2 {
 
     .header-text {
         font-size: 20px;
-        font-family: "Quicksand", serif;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding-left: 20px;
     }
 
     .header-text h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .sub-title {
