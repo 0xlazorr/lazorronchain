@@ -23,6 +23,14 @@ body {
     padding: 10px 5%;
 }
 
+.logo {
+    font-size: 30px;
+}
+
+.logo:hover {
+    color: #237afc;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -415,21 +423,30 @@ form.btn2 {
     span {
         color: #237afc;
     }
-    nav{
-        width: 100%;
-        display: none;
+    .logo{
+        font-size: 25px;
+        padding-top: 10px;
     }
+    .logo:hover{
+        color: #237afc;
+    }
+    nav {
+        width: 100%;
+    }
+
     nav ul {
         display: flex;
+        display: none;
     }
 
     .header-text {
-        font-size: 30px;
+        font-size: 20px;
+        font-family: "Quicksand", serif;
         padding-left: 20px;
     }
 
     .header-text h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .sub-title {
