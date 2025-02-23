@@ -69,7 +69,7 @@ nav ul li a:hover::after {
 .header-text {
     margin-top: 20%;
     font-size: 30px;
-    font-family: cursive;
+    font-family: "poppins", sans-serif;
     padding-left: 40px;
     flex-basis: 50%;
 }
