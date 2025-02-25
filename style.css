@@ -69,9 +69,12 @@ nav ul li a:hover::after {
 .header-text {
     margin-top: 20%;
     font-size: 30px;
-    font-family: "poppins", sans-serif;
     padding-left: 40px;
     flex-basis: 50%;
+}
+
+.header-text p {
+    font-family: cursive;
 }
 
 .header-text h1 {
@@ -424,13 +427,16 @@ form.btn2 {
     span {
         color: #237afc;
     }
-    .logo{
+
+    .logo {
         font-size: 25px;
         padding-top: 10px;
     }
-    .logo:hover{
+
+    .logo:hover {
         color: #237afc;
     }
+
     nav {
         width: 100%;
     }
